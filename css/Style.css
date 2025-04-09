@@ -1,0 +1,74 @@
+﻿body {
+    font-family: 'Roboto', sans-serif;
+}
+.carousel-caption {
+    position: absolute;
+    bottom:8rem;
+    right: 15%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.nav-link{
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+
+}
+
+h2 {
+    margin-right: 10px;
+}
+
+h5 {
+    text-align: left;
+}
+
+
+.qalhcen { text-align:center; color:#fff;
+}
+
+
+
+.ab ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ab li {
+    margin: 5px;
+    background-color: #fff; /* Default background color */
+    padding:15px;
+    text-align:left;
+
+
+}
+
+    .ab li a {
+        text-decoration: none; /* Remove underline from links */
+        color: #000; /* Default text color */
+        display: block; /* Make the anchor fill the list item */
+        height: 100%; /* Make the anchor fill the li height */
+    }
+
+
+
+
+    .ab li:hover {
+        background-color: green; /* Change background color on li hover 
+        transform:translateX(8px);*/
+        transition: 0.5s;
+        
+    }
+
+        .ab li:hover a {
+            text-decoration:underline;
+            color: #fff; /* Change text color on li hover */
+        }
+
+
