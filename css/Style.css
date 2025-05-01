@@ -92,12 +92,15 @@ h5 {
         display: contents !important;
     }
     img#desktop {
-        display: contents;
+        display: none;
     }
     img#mobileversion {
-        display: block;
+        display: block !important;
         width: 100% !important;
         height: auto !important;
+    }
+    a.navbar-brand {
+        margin-left: 6%;
     }
  }
 
@@ -121,12 +124,15 @@ h5 {
         display: contents !important;
     }
     img#desktop {
-        display: contents;
+        display: none;
     }
     img#mobileversion {
-        display: block;
+        display: block !important;
         width: 100% !important;
         height: auto !important;
+    }
+    a.navbar-brand {
+        margin-left: 6%;
     }
  }
 
@@ -150,12 +156,15 @@ h5 {
         display: contents !important;
     }
     img#desktop {
-        display: contents;
+        display: none;
     }
     img#mobileversion {
-        display: block;
+        display: block !important;
         width: 100% !important;
         height: auto !important;
+    }
+    a.navbar-brand {
+        margin-left: 6%;
     }
  }
 
@@ -165,5 +174,5 @@ h5 {
     color: #fff;
 }
 img#mobileversion {
-    display: contents;
+    display: none;
 }
