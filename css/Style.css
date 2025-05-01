@@ -88,6 +88,9 @@ h5 {
     section#offlogns .col-md-2 {
         width: 50% !important;
     }
+    section.footer.mt-4 .footer-text.content-justfiy {
+        display: contents !important;
+    }
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -106,6 +109,9 @@ h5 {
     section#offlogns .col-md-2 {
         width: 50% !important;
     }
+    section.footer.mt-4 .footer-text.content-justfiy {
+        display: contents !important;
+    }
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -123,6 +129,9 @@ h5 {
     }
     section#offlogns .col-md-2 {
         width: 50% !important;
+    }
+    section.footer.mt-4 .footer-text.content-justfiy {
+        display: contents !important;
     }
  }
 
