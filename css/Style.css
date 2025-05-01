@@ -91,6 +91,14 @@ h5 {
     section.footer.mt-4 .footer-text.content-justfiy {
         display: contents !important;
     }
+    img#desktop {
+        display: contents;
+    }
+    img#mobileversion {
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+    }
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -111,6 +119,14 @@ h5 {
     }
     section.footer.mt-4 .footer-text.content-justfiy {
         display: contents !important;
+    }
+    img#desktop {
+        display: contents;
+    }
+    img#mobileversion {
+        display: block;
+        width: 100% !important;
+        height: auto !important;
     }
  }
 
@@ -133,10 +149,21 @@ h5 {
     section.footer.mt-4 .footer-text.content-justfiy {
         display: contents !important;
     }
+    img#desktop {
+        display: contents;
+    }
+    img#mobileversion {
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+    }
  }
 
  section.footer {
     background: linear-gradient(to bottom right, #7cba51, #0f4a05);
     padding-top: 10px;
     color: #fff;
+}
+img#mobileversion {
+    display: contents;
 }
