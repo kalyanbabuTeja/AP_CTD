@@ -126,3 +126,8 @@ h5 {
     }
  }
 
+ section.footer {
+    background: linear-gradient(to bottom right, #7cba51, #0f4a05);
+    padding-top: 10px;
+    color: #fff;
+}
