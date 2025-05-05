@@ -166,13 +166,13 @@ h5 {
     a.navbar-brand {
         margin-left: 6%;
     }
- }
+}
 
- section.footer {
+section.footer {
     background: linear-gradient(to bottom right, #7cba51, #0f4a05);
     padding-top: 10px;
     color: #fff;
 }
 img#mobileversion {
-    display: none;
+display: none;
 }
