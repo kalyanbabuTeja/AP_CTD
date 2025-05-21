@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Andhra Pradesh Ministers</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.ministers-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 30px;
+}
+
+.minister-card {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #ffd89b, #ff7e5f);
+  border-radius: 15px;
+  padding: 15px 20px;
+  max-width: 400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.minister-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.info {
+  color: #000;
+}
+
+.info h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #004aad;
+}
+
+.info p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .minister-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .minister-card img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="ministers-container">
+    <div class="minister-card">
+      <img src="chandrababu.png" alt="Sri Nara Chandrababu Naidu" />
+      <div class="info">
+        <h4>Sri Nara Chandrababu Naidu</h4>
+        <p>Hon'ble Chief Minister,<br/>Government of Andhra Pradesh</p>
+      </div>
+    </div>
+
+    <div class="minister-card">
+      <img src="payyavula.png" alt="Sri Payyavula Keshav" />
+      <div class="info">
+        <h4>Sri Payyavula Keshav</h4>
+        <p>Hon'ble Minister Finance<br/>& Planning, Commercial Taxes<br/>and Legislative Affairs</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
