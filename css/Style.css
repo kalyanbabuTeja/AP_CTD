@@ -200,11 +200,11 @@ p.phototext {
     margin-left: 327px;
     font-size: 18px;
 }
-h5.mainlogo font, h5 font {
+h5.mainlogo font,a.navbar-brand h5 font {
     font-size: 26px !important;
     font-weight: 900;
 }
-h6.mainlogo1 font, h6 font {
+h6.mainlogo1 font,a.navbar-brand h6 font {
     font-size: 20px !important;
     font-weight: 900 !important;
 }
