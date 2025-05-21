@@ -1,0 +1,15 @@
+:lang(te) {
+    font-size: 100%;  /* Adjust as needed */
+	
+	font-weight: 600 !important;
+   
+    ul.navbar-nav a {
+    padding: 9px 5px 10px;
+    font-size: 12px;
+	font-family: 'Montserrat', 'Mallanna', sans-serif !important;
+	font-weight: 600 !important;
+}
+}
+i.fi.fi-rr-house-chimney, i.fi.fi-rr-sitemap {
+    color: #fff;
+}
